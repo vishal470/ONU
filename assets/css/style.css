@@ -519,6 +519,13 @@ body {
   #SERVICE
 \*-----------------------------------*/
 
+#serviceee{
+  background-image: url(../images/asset\ 34.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+}
+
 .service { background-color: var(--ghost-white); }
 
 .service .section-title { margin-block: 30px 60px; }
@@ -877,7 +884,7 @@ body {
 
 .insta-card {
   position: relative;
-  border-radius: var(--radius-10);
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -1768,3 +1775,6 @@ padding: 20px 15px 0;
     margin-right: 10px;
   }
 }
+
+
+
