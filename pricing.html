@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Opportunities And You</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.css'>
+  <link rel="stylesheet" href="./slider.css">
+  <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+
+</head>
+<body>
+
+    <header class="header" data-header>
+        <div class="container">
+          <a href="#" class="logo">Opportunities & You</a>
+          <nav class="navbar" data-navbar>
+            <div class="wrapper">
+              <a href="#" class="logo">Opportunities & You</a>
+  
+              <button
+                class="nav-close-btn"
+                aria-label="close menu"
+                data-nav-toggler
+              >
+                <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+              </button>
+            </div>
+  
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="#serviceee" class="navbar-link" data-nav-link>Service</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="#feature" class="navbar-link" data-nav-link>About Us</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="./pricing.html" class="navbar-link" data-nav-link>Pricing</a>
+              </li>
+  
+              <li class="navbar-item">
+                <a href="#contact" class="navbar-link" data-nav-link>Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+  
+          <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+            <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+          </button>
+  
+          <a href="#" class="btn btn-primary has-before has-after"
+            >Let’s Talk 👋</a
+          >
+  
+          <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+      </header>
+<!-- partial:index.partial.html -->
+<div class="calculate">
+  <div class="calculate-wrap">
+    <div class="calculate-top">
+    <div class="calculate-amount">
+      Contract amount
+    </div>
+    <p class="calculate-text">Rs<input type="text" id="text" class="calculate-input"></input></p>
+  </div>
+  </div>
+  <div class="calculate-slider">
+    <div id="slider"></div>
+  </div>
+  <div class="calculate-inner">
+    <div class="calculate-block">
+      <p>Payouts currency</p>
+      <p><span>USDT</span></p>
+    </div>
+    
+    <div class="calculate-block">
+      <p>Contract term</p>
+      <p><span>365 days</span></p>
+    </div>
+    
+     <div class="calculate-block">
+        <p>Potential income</p>
+        <p><span>Rs<span id="prop">2,2000</span></span></p>
+     </div>
+    
+    <div class="calculate-block">
+      <p>Annual income</p>
+      <p><span id="income">112%</span></p>
+   </div>
+  </div>
+  <div class="calculate-btn-wrapper">
+    <a href="#" class="calculate-btn">Buy contract now</a>
+</div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/14.0.2/nouislider.min.js'></script>
+  <script  src="./slider.js"></script>
+  <script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+</html>
